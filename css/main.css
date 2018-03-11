@@ -1,0 +1,422 @@
+
+body {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.wanted-dead {
+    min-height: 100px;
+}
+/*----------------------  fonts -------------*/
+@font-face {
+    font-family: "fontwcs";
+    src: url("../font/anicb.ttf");
+}
+
+@font-face {
+    font-family: "fontwcs2";
+    src: url("../symbol/partybusiness.ttf");
+}
+
+@font-face {
+    font-family: "font-caroussel";
+    src: url("../font/anirm.ttf");
+}
+
+
+.title-wcs {
+    text-align: left;
+    font-family: "fontwcs";
+    padding: 30px 0 15px 0;
+}
+
+.titlesmall-wcs {
+    font-family: "fontwcs";
+    font-size: 0.6em;
+}
+
+.title-caroussel {
+    font-family: "font-caroussel";
+}
+
+/*---------------------- nav hunters and list -------------*/
+.list-wanted {  
+    text-align: center;
+    background: #f66806;    
+}
+
+.list-wanted ul {
+    background-color: rgb(23, 91, 218);
+
+    justify-content: center;
+}
+
+.list-wanted ul li {
+    background-color: rgb(255, 127, 234);    
+    list-style: none;
+    float: left;
+    width: 220px;
+    margin: auto;
+}
+
+.list-wanted ul li a {
+    background-color: aquamarine;
+    margin-left: 10px;    
+}
+
+.navbar-brand, .nav-link {
+    color:#ffffff;
+    font-family: "fontwcs";
+}
+
+.navbar-brand, .nav-link-2 {
+    color:#706d68;
+    font-family: "fontwcs";
+    margin: 10px;
+}
+
+.collapse:hover a {
+    color:#ffffff;
+    
+}
+
+.nav-link:hover a {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.font-navlink {
+    color:#ffffff;
+}
+
+.bgcolor {
+    background-color: #f66806;
+}
+
+.bgcolor2 {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.container-fluid {
+    background-image: url("../img/bg_light.png");
+}
+
+/*---------------------- sign titles cards -------------*/
+
+.card-text {
+    font-family: "font-caroussel";
+    color: #a8a8a8;
+}
+
+.sign {
+    color: #000000;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    width: 90%;
+    opacity: 0.8;
+    font-family: "font-caroussel";
+    box-shadow: 1px 1px 2px #ffffff, 0 0 25px #ffffff, 0 0 5px #ffffff;
+  }
+
+  .sign-2 {
+    color:#ff590d;
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: none;
+    border-radius: 10px;
+    width: 90%;
+    opacity: 0.8;
+    font-family: "font-caroussel";
+  }
+
+.orange {
+    color:#ff590d;
+    font-family: "font-caroussel";
+    font-size: 28px;
+}
+
+.fellows-pers {
+    color:#ff590d;
+    font-family: "font-caroussel";
+}
+
+/*---------------------- cards & animation -------------*/
+.card {
+    margin: 5px;
+}
+.name-wanted {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "font-caroussel";
+}
+
+.through-word {
+    text-decoration: line-through #ff590d;
+    font-family: "font-caroussel";
+}
+
+.card-img-top {
+    opacity: 0.3;
+}
+
+.text-name {
+    color: #ffffff;
+    font-size: 32px;
+    top: 50%;
+    left: 24%;
+    position: absolute;
+}
+
+.overlay-card {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: url("../img/gandalf.png") no-repeat;
+    background-size: 100%;
+    border: 5px solid #000000;
+  }
+
+.card:hover .overlay-card {
+    opacity: 1;
+  }
+
+
+
+.ThebigWanted {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 220px;
+    font-weight: 700;
+    font-family: "font-caroussel";
+}
+
+.overlay-card-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: url("../img/aragorn.png") no-repeat;
+    background-size: 100%;
+    border: 5px solid #000000;
+  }
+
+.card:hover .overlay-card-2 {
+    opacity: 1;
+  }
+
+.card-deck {
+    padding-bottom: 50px;
+}
+
+
+/*---------------------- paragraph -------------*/
+.some-lorem {
+    padding: 15px 0px 0 0px;
+}
+
+.some-lorem-2 {
+    padding: 15px 0px 0px 0px;
+    font-family: "font-caroussel";
+    text-align: justify; 
+}
+
+/*---------------------- button section -------------*/
+.button-contactus {
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    width: 200px;
+    margin: 20px 0 50px;
+    justify-content: center;
+    font-family: "font-caroussel";
+}
+
+.sauron-button {
+    background: #202020;
+    border: 2px solid #202020;
+    width: 300px;
+    margin: 20px 0 50px;
+    justify-content: center;
+    color: #ff5a0a;
+    font-family: "font-caroussel";
+}
+
+/*---------------------- section background -------------*/
+
+.bg-dark {
+    background-image: url("../img/bg_dark.png");
+    color: #ffffff;
+    font-family: "font-caroussel";
+    text-align: justify;
+    min-height: 300px;
+}
+
+.bg-cream {
+    background-image: url("../img/bg_light.png");
+    min-height: 50px;
+}
+
+
+
+/*---------------------- section background -------------*/
+
+.ourhunters {
+    justify-content: center;
+    margin: 40px 40px;
+}
+
+.picture-joinmordor {
+    width: 50%;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.remov-marg-bottom {
+    margin-bottom: -15px;
+}
+
+/*---------------------- join Mordor army -------------*/
+
+section {
+    width: auto;
+    display: flex;
+    flex-direction: inline-row;
+    flex-wrap: wrap;   
+    width: 80%;
+    justify-content: center;
+    min-height:300px;
+    background-color: none;
+    
+}
+
+.clearfix-right::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.coin {
+    float: right;
+    min-width: 80px;
+    width: 20%;
+    padding: 10px;
+}
+
+.more-info {
+    vertical-align: bottom;
+    font-size: 0.5;
+    font-family: "font-caroussel";
+    padding-top: 50px;
+}
+
+/*---------------------- join Mordor army -------------*/
+.picture-joinmordor {
+    float: right;
+    min-width: 80px;
+    width: 30%;
+    padding: 20px;
+}
+
+.clearfix-left::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.picture-joinmordor-2 {
+    float: left;
+    min-width: 80px;
+    width: 30%;
+    padding: 20px;
+}
+
+
+/*---------------------- form -------------*/
+
+input, select, textarea {
+    width: 100%;
+  }
+
+.gnom {
+    border-radius: 50%;
+    border: 1px solid #d9d9d9;
+}
+
+.map {
+    width:50%;
+    min-width: 380px;
+    margin-bottom: 20px;
+
+}
+
+/*---------------------- panels -------------*/
+
+table {
+    margin-top: 50px;
+}
+
+th {
+    background-color: #ff5f01; 
+    border: 0;
+}
+.upmargin {
+    margin-top: -15px;
+}
+
+/*---------------------- foot list -------------*/
+.foot-list { 
+    margin-left: 5px;
+    padding:5px;
+    width: 30%;
+    min-height: 200px;
+    background: none;
+    min-width: 382px;
+}
+
+.foot-list ul {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #ff590d;
+    min-height: 300px;
+    width: 100%;
+    color: #ffffff;
+    font-family: "font-caroussel";
+    padding: 20px;
+    font-size: 0.8em;
+}
+
+.font-twitter {
+    font-size: 0.4em;
+}
